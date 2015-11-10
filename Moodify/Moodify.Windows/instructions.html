@@ -1,0 +1,72 @@
+﻿<!DOCTYPE HTML>
+<html>
+<head>
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+    <title></title>
+    <style type="text/css">
+        .display {
+            /* Block areas from being selected */
+            -ms-user-select: none;
+        }
+
+        body {
+            /* Block area from manipulation actions (zoom, pan) */
+            touch-action:none;
+        }
+    </style>
+    <script type="text/javascript">
+        var bodyGesture;
+        var bodyElement;
+
+        function onLoad() {
+
+            //  Create gesture event listeners for each <div> element
+            prepareTarget("page", bodyListener);
+         
+            // Create MSGesture object 1 (red <div>)
+            bodyGesture = new MSGesture();
+            bodyElement = document.getElementById("page");
+            bodyGesture.target = bodyElement;
+           }
+
+        function prepareTarget(targetId, eventListener) {
+            var target = document.getElementById(targetId);
+            target.addEventListener("MSGestureStart", eventListener, false);
+            target.addEventListener("MSGestureEnd", eventListener, false);
+            target.addEventListener("MSGestureChange", eventListener, false);
+            target.addEventListener("MSInertiaStart", eventListener, false);
+            target.addEventListener("pointerdown", eventListener, false);
+        }
+
+      
+        function bodyListener(evt) {
+            if (evt.type == "pointerdown") {
+                bodyGesture.addPointer(evt.pointerId);
+                return;
+            }
+            ne.click();
+            evt.stopPropagation();
+        }
+       
+       
+    </script>
+    <link href="/css/default.css" rel="stylesheet" />
+</head>
+
+<body id="page" class="display" style="background-image:url(images/gamebg.jpg);background-size:cover;background-repeat:no-repeat" onload="onLoad(); say('Match the emotions or mood as described in the picture with the options given to the right of the picture.')">
+    <a href="/default.html"><img src="/images/3241591.png" style="position:absolute;left:92vw;top:3vh;height:10vh;width:10vh;" /></a>
+    <h1 style="text-align:center;font-family:myfont;font-size:5vw">Instructions</h1>
+    <table>
+        <tr>
+            <td><img src="images/1.png" style="position:relative;width:75vh;height:75vh" /></td>
+            <td></td>
+            <td></td>
+            <td><p style=" position:relative;font-family:'Comic Sans MS';font-size:36px;color:#2E3192">Match the emotions or mood as described in the picture with the options given to the right of the picture.</p></td>
+        </tr>
+    </table>
+
+    <a href="instructions2.html"><img id="ne" src="/images/next.jpg" style="position:absolute;left:92vw;top:88vh;height:10vh;width:10vh;" /></a>
+    <script src="/js/script.js"></script>
+</body>
+</html>

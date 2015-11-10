@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>27e16770-8fd6-433f-8193-4742abdd9741</SharedGUID>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)images\3241591.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\background.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\button1.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\button1h.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\button2.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\button2h.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\button3.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\button3h.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\circle.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\logo.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\logo.scale-100.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\mainbg.jpg" />
+    <Content Include="$(MSBuildThisFileDirectory)images\mainscreen.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\plus5.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\rectangle.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\scorebox.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\sidebox.png" />
+    <Content Include="$(MSBuildThisFileDirectory)images\triangle.png" />
+    <Content Include="$(MSBuildThisFileDirectory)js\default.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\game.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\gamep.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\jquery-1.11.2.min.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\script.js" />
+    <Content Include="$(MSBuildThisFileDirectory)js\script1.js" />
+  </ItemGroup>
+</Project>

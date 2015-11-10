@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>
+
+    </title>
+    <link href="/css/default.css" rel="stylesheet" />
+    <script type="text/javascript">
+        function loader()
+        {
+            texter.runtimeStyle.left = "0vw";
+        }
+    </script>
+</head>
+<body style="background-image:url(images/gamebg.jpg);background-size:cover;background-repeat:no-repeat" onload="loader(); say('You are allowed a maximum of 5 wrong answers per game, displayed in Red. Each correct answer fetches you 5 points, displayed in Green.')">
+    <a href="/default.html"><img src="/images/3241591.png" style="position:absolute;left:92vw;top:3vh;height:10vh;width:10vh;" /></a>
+    <h1 style="text-align:center;font-family:myfont;font-size:5vw">Instructions</h1>
+    <table>
+        <tr>
+            <td><img src="images/2.png"  style="position:relative;width:75vh;height:75vh" /></td>
+            <td></td>
+            <td></td>
+            <td><p id="texter" style="position:relative;font-family:'Comic Sans MS';font-size:36px;color:#2E3192">You are allowed a maximum of 5 wrong answers per game, displayed in Red. Each correct answer fetches you 5 points, displayed in Green.</p></td>
+        </tr>
+    </table>
+    <script src="/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>DESKTOP-9OB7SNS</Machine>
+    <WindowsUser>Erilyth</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <TargetOsVersion>6.3</TargetOsVersion>
+    <TargetOsDescription>Windows 8.1</TargetOsDescription>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>90435f25-1d9d-4370-9db0-e51b70bd648e</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\bld\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\about.html">
+      <PackagePath>about.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\game.html">
+      <PackagePath>game.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\highscores.html">
+      <PackagePath>highscores.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\instructions.html">
+      <PackagePath>instructions.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\instructions2.html">
+      <PackagePath>instructions2.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\lose.html">
+      <PackagePath>lose.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\win.html">
+      <PackagePath>win.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\css\GoodDog-webfont.woff">
+      <PackagePath>css\GoodDog-webfont.woff</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\1.png">
+      <PackagePath>images\1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\2.png">
+      <PackagePath>images\2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\3241591.png">
+      <PackagePath>images\3241591.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\BadgeLogo.scale-100.png">
+      <PackagePath>images\BadgeLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\button1.png">
+      <PackagePath>images\button1.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\button1h.png">
+      <PackagePath>images\button1h.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\button2.png">
+      <PackagePath>images\button2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\button2h.png">
+      <PackagePath>images\button2h.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\button3.png">
+      <PackagePath>images\button3.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\button3h.png">
+      <PackagePath>images\button3h.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\button4.png">
+      <PackagePath>images\button4.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\button4h.png">
+      <PackagePath>images\button4h.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\circle.png">
+      <PackagePath>images\circle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\Logo.scale-100.png">
+      <PackagePath>images\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\mainscreen.png">
+      <PackagePath>images\mainscreen.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\plus5.png">
+      <PackagePath>images\plus5.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\rectangle.png">
+      <PackagePath>images\rectangle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\scorebox.png">
+      <PackagePath>images\scorebox.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\sidebox.png">
+      <PackagePath>images\sidebox.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\smalllogo.scale-100.png">
+      <PackagePath>images\smalllogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\splashscreen.scale-100.png">
+      <PackagePath>images\splashscreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\Square310x310Logo.scale-100.png">
+      <PackagePath>images\Square310x310Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\Square70x70Logo.scale-100.png">
+      <PackagePath>images\Square70x70Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\storelogo.scale-100.png">
+      <PackagePath>images\storelogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\triangle.png">
+      <PackagePath>images\triangle.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\Wide310x150Logo.scale-100.png">
+      <PackagePath>images\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Shared\images\logo.png">
+      <PackagePath>images\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\background.jpg">
+      <PackagePath>images\background.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\gamebg.jpg">
+      <PackagePath>images\gamebg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\mainbg.jpg">
+      <PackagePath>images\mainbg.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\next.jpg">
+      <PackagePath>images\next.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\soundoff.jpg">
+      <PackagePath>images\soundoff.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\soundon.jpg">
+      <PackagePath>images\soundon.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\images\blue.gif">
+      <PackagePath>images\blue.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\js\MobileServices.intellisense.js">
+      <PackagePath>js\MobileServices.intellisense.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\js\MobileServices.js">
+      <PackagePath>js\MobileServices.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\js\MobileServices.min.js">
+      <PackagePath>js\MobileServices.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Shared\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Shared\js\game.js">
+      <PackagePath>js\game.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Shared\js\gamep.js">
+      <PackagePath>js\gamep.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Shared\js\jquery-1.11.2.min.js">
+      <PackagePath>js\jquery-1.11.2.min.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Shared\js\script.js">
+      <PackagePath>js\script.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Shared\js\script1.js">
+      <PackagePath>js\script1.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\music\RidingHigh.mp3">
+      <PackagePath>music\RidingHigh.mp3</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\packages.config">
+      <PackagePath>packages.config</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Erilyth\Desktop\Moodify\Moodify\Moodify.Windows\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.17018</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.17018</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,20 @@
+﻿@font-face {
+    font-family:myfont;
+    src:url(GoodDog-webfont.woff);
+}
+
+body {
+    touch-action:none;
+}
+.runanimation{
+    animation: mymove 2s;
+}
+@keyframes mymove{
+    0%  {top:0vh; transform:rotate(0deg);}
+    50% {top:80vh;transform:rotate(0deg);}
+    100% {top:80vh;transform:rotate(360deg);}
+}
+
+#texter {
+    transition:left 1s;
+}

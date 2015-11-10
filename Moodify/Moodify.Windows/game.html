@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>
+
+    </title>
+    <script src="/js/jquery-1.11.2.min.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+    <link href="/css/default.css" rel="stylesheet" />
+</head>
+<body style="background-image:url(images/background.jpg); background-repeat:no-repeat; background-size:cover;">
+    <a href="/default.html"><img id="home" src="/images/3241591.png" style="position:absolute;left:92vw;top:3vh;height:10vh;width:10vh;"/></a>
+    <img id="sound" style="border-radius:50%;position:absolute;left:93vw;top:14vh;height:8vh;width:8vh;" src="/images/soundon.jpg" onclick="changesound()" />
+    <img src="/images/mainscreen.png" style="height:85vh;width:70vw;" alt="mainscreen" />
+    <div id="mainer" style="border-radius:10%;left:10vw;top:9vh;position:absolute;height:65vh;width:50vw;"></div>
+    <img id="opt1" src="/images/sidebox.png" style="left:75vw;top:10vh;position:absolute;height:20vh;" alt="sidebox" onclick="next(1)">
+    <h1 id="ans1" style="font-size:8vh;font-family:myfont;color:#3A5795;position:absolute;left:78vw;top:10vh;" onclick="next(1)"></h1>
+    <img id="opt2" src="/images/sidebox.png" style="left:75vw;top:35vh;position:absolute;height:20vh;" alt="sidebox" onclick="next(2)">
+    <h1 id="ans2" style="font-size:8vh;font-family:myfont;color:#3A5795;position:absolute;left:78vw;top:35vh;" onclick="next(2)"></h1>
+    <img id="opt3" src="/images/sidebox.png" style="left:75vw;top:60vh;position:absolute;height:20vh;" alt="sidebox" onclick="next(3)">
+    <h1 id="ans3" style="font-size:8vh;font-family:myfont;color:#3A5795;position:absolute;left:78vw;top:60vh;" onclick="next(3)"></h1>
+    <img src="/images/scorebox.png" style="left:10vw;top:83vh;position:absolute;height:10vh;width:25vw;" alt="scorebox">
+    <h1 style="font-size:6vh;font-family:myfont;color:lightgreen;top:80vh;left:16vw;position:absolute;" id="scoreboard">0</h1>
+    <h1 style="font-size:6vh;font-family:myfont;color:red;top:80vh;left:24vw;position:absolute;" id="wrong">0/5</h1>
+    <img src="images/plus5.png" style="left:67vw;top:80vh;position:absolute;height:15vh;visibility:hidden" alt="plus5" id="plusfive"/>
+    <a href="/win.html"><p id="win" style="visibility:hidden;"></p></a>
+    <a href="/lose.html"><p id="lose" style="visibility:hidden;"></p></a>
+    <audio id="myaudio" autoplay>
+        <source src="music/RidingHigh.mp3" type="audio/mp3" style="visibility:hidden" id="music" />
+    </audio>
+    <script src="js/game.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/mobileservices/MobileServices.Web-1.2.5.min.js"></script>
+</body></html>
